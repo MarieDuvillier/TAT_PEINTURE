@@ -1,17 +1,18 @@
 #home {
-  background-color: #D23333;
+  background-color: $light-gray;
   color: white;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
   text-align: center;
+  line-height: 3.428571;
   p {
     margin-top: 1.5em;
   }
   a {
-    color: rgba(0,0,0,0.4);
-    font-weight: bold;
-    font-size: 16px;
+    color: $black;
+    font-weight: lighter;
+    font-size: 32px;
   }
 }
